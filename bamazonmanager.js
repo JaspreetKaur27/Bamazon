@@ -97,7 +97,7 @@ function viewProductSale()
 
 function viewInventory()
 {
-    connection.query('SELECT products.item_id, products.product_name, departments.department_name, products.price, products.stock_quantity FROM products JOIN departments ON departments.department_id = products.department_id WHERE stock_quantity < 5', 
+    connection.query('SELECT products.item_id, products.product_name, departments.department_name, products.price, products.stock_quantity FROM products JOIN departments ON departments.department_id = products.department_id WHERE stock_quantity < 5 ORDER BY item_id', 
    (err, res) => {
        if(err)
        {
