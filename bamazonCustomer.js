@@ -21,9 +21,10 @@ connection.connect((err) => {
         throw err;
     }
     console.log("connected as id " + connection.threadId);
-   
     doShopping();
 });
+
+
 
 function doShopping()
 {
@@ -77,8 +78,8 @@ function doShopping()
         }
 
         var updateStock = parseInt(chosenItem.stock_quantity) - parseInt(answer.quantity);
-        //var productsales = parseFloat(chosenItem.product_sales).toFixed(2);
-
+        var productsales = parseFloat(chosenItem.product_sales).toFixed(2);
+        //console.log(productsales);
         if(chosenItem.stock_quantity < parseInt(answer.quantity))
         {
             console.log("Insufficient quantity!");
@@ -88,8 +89,8 @@ function doShopping()
         {
 
             var total = (parseFloat(answer.quantity) * chosenItem.price).toFixed(2);
-            var productTotal = (parseFloat(total) + parseFloat(chosenItem.product_sales)).toFixed(2);
-
+            var productTotal = (parseFloat(total) + parseFloat(productsales)).toFixed(2);
+            //console.log(productTotal);
             //query to update the stocks 
             var query = connection.query("UPDATE products SET ?, ? WHERE ?",
         [
