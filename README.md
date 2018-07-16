@@ -15,4 +15,19 @@ Product Table with Details for user to buy. User can select id and quantity how 
 
 When user Sucessfully Purchase item then this changes reflect in the Database. The stock Quantity is reduced.
 
-<img src="/images/Customer3.png" width="500" height="100">
+<img src="/images/Customer3.png" width="500" height="50">
+
+
+## Challenge2: bamazonmanager.js
+
+### Manager Menu
+
+<img src="/images/ManagerMenu.png" width="500" height="200">
+
+### View Products for Sale
+
+<img src="/images/ManagerView1.png" width="1000" height="500">
+
+### View Low Inventory Check if Inventory < 5
+
+<img src="/images/MAnagerView2.png" width="1000" height="500">
