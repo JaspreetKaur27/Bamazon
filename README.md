@@ -30,4 +30,28 @@ When user Sucessfully Purchase item then this changes reflect in the Database. T
 
 ### View Low Inventory Check if Inventory < 5
 
-<img src="/images/MAnagerView2.png" width="1000" height="500">
+<img src="/images/ManagerView2.png" width="1000" height="500">
+
+
+## Challenge3: bamazonsupervisor.js
+
+### Supervisor Menu
+
+<img src="/images/SupervisorMenu.png" width="500" height="200">
+
+### View Products Sales by Department
+
+<img src="/images/SupervisorView.png" width="1000" height="400">
+
+### Create New Department
+
+<img src="/images/SupervisorView2.png" width="1000" height="400">
+
+### New added Department in the Department table at the backend in MySQL Workbench (MySQL)
+
+<img src = "/images/SupervisorView3.png" width="500" height="200">
+
+---
+
+Link to Github: <a href = "https://github.com/JaspreetKaur27/Bamazon">https://github.com/JaspreetKaur27/Bamazon</a>
+
