@@ -45,11 +45,11 @@ When user Sucessfully Purchase item then this changes reflect in the Database. T
 
 ### Create New Department
 
-<img src="/images/SupervisorView2.png" width="1000" height="400">
+<img src="/images/supervisorView2.png" width="1000" height="400">
 
 ### New added Department in the Department table at the backend in MySQL Workbench (MySQL)
 
-<img src = "/images/SupervisorView3.png" width="500" height="200">
+<img src = "/images/supervisorView3.png" width="500" height="200">
 
 ---
 
